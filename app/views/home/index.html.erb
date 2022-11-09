@@ -1,0 +1,28 @@
+	<div class="limiter">
+		<div class="container-login100" style="background-image: url('/Login_v16/images/bg-01.jpg');">
+			<div class="wrap-login100 p-t-30 p-b-50">
+				<span class="login100-form-title p-b-41">
+					Bienvenido a ON-TI
+				</span>
+
+				<% if current_user %>
+                    <div class="container-login100-form-btn m-t-32">
+					    <%= link_to "Menu", dash_index_path, class: "login100-form-btn" %>
+				    </div>
+
+                    <div class="container-login100-form-btn m-t-32">
+                        <%= link_to "Cerrar Sesion", destroy_user_session_path, method: :delete, class: "login100-form-btn" %>
+				    </div>
+                <% else %>
+                    <div class="container-login100-form-btn m-t-32">
+					    <%= link_to "Registrate", new_user_registration_path, class: "login100-form-btn" %>
+				    </div>
+
+                    <div class="container-login100-form-btn m-t-32">
+                        <%= link_to "Login", new_user_session_path, class: "login100-form-btn" %>
+				    </div>
+                <% end %>
+			</div>
+		</div>
+	</div>
+

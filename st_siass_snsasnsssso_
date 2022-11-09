@@ -1,0 +1,18 @@
+.schema not found, maybe you meant:
+
+ActiveRecord::ConnectionAdapters::AbstractAdapter#schema_cache
+ActiveRecord::ConnectionAdapters::AbstractAdapter#schema_cache=
+ActiveRecord::ConnectionAdapters::ConnectionPool#schema_cache
+ActiveRecord::ConnectionAdapters::PostgreSQL::SchemaStatements#schema_creation
+ActiveRecord::ConnectionAdapters::PostgreSQL::SchemaStatements#schema_exists?
+ActiveRecord::ConnectionAdapters::PostgreSQL::SchemaStatements#schema_names
+ActiveRecord::ConnectionAdapters::PostgreSQL::SchemaStatements#schema_search_path
+ActiveRecord::ConnectionAdapters::PostgreSQL::SchemaStatements#schema_search_path=
+ActiveRecord::ConnectionAdapters::SchemaStatements#schema_creation
+ActiveRecord::ModelSchema::ClassMethods#schema_loaded?
+ActiveRecord::ModelSchema::schema_migrations_table_name
+ActiveRecord::ModelSchema::schema_migrations_table_name=
+ActiveRecord::Tasks::DatabaseTasks#schema_file
+ActiveRecord::Tasks::DatabaseTasks#schema_file_type
+ActiveRecord::Tasks::DatabaseTasks#schema_sha1
+ActiveRecord::Tasks::DatabaseTasks#schema_up_to_date?
